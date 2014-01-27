@@ -15,7 +15,12 @@
     "headers"
   ],
   "author": "Ryan Clark",
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "GPLv3",
+      "url": "http://www.gnu.org/licenses/gpl-3.0.html"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/rclark/osm-headers/issues"
   },

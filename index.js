@@ -1,6 +1,7 @@
 var osmread = require('osm-read');
 
 module.exports = function (filePath, callback) {
+    // This is pretty much verbatim the example on https://github.com/marook/osm-read
     osmread.createPbfParser({
         filePath: filePath,
         callback: function (err, parser) {
