@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var osmHeaders = require('../');
+var argv = require('optimist')
+    .demand(1)
+    .argv;
+
+osmHeaders(argv._[0], function (err, headers) {
+    if (err) return console.log(err);
+    console.log(headers);
+});
